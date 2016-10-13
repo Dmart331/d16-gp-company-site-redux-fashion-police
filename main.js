@@ -88,7 +88,26 @@ var swagUnicorn = {
  button: "Add to Cart"
 }
 
-productArr.push(swagBatRing);
+productArr.push(swagUnicorn);
+
+console.log(productArr);
+
+
+var productElements = "";
+
+
+
+for (var i = 0; i < productArr.length; i++) {
+	productElements += " <div class='card'>" + "<img class='card' src='" + productArr[i].image + "'>";
+	productElements += "<h2>" + productArr[i].name + "</h2>";
+	productElements += "<p>" + productArr[i].description + " " + "<strong>" + productArr[i].price + "</strong>" + "</p>";
+	productElements += "<button type='button'>" + productArr[i].button + "</button>" + "</div>";
+}
+
+document.getElementById("content").innerHTML = productElements
+
+
+console.log(productElements);
 
 
 
@@ -99,13 +118,10 @@ productArr.push(swagBatRing);
 
 
 
+// document.getElementById("content").innerHTML = "<img class='card' src='" + productArr[0].image + "'>";
+ // = document.getElementById("content").innerHTML;
 
-
-
-
-
-
-
+// document.getElementById("content").innerHTML = "<img class='card' src='" + productArr[i].image + "'>";
 
 
 
