@@ -101,12 +101,11 @@ for (var i = 0; i < productArr.length; i++) {
 	productElements += " <div class='card'>" + "<img class='card' src='" + productArr[i].image + "'>";
 	productElements += "<h2>" + productArr[i].name + "</h2>";
 	productElements += "<p>" + productArr[i].description + " " + "<strong>" + productArr[i].price + "</strong>" + "</p>";
-	productElements += "<button type='button'>" + productArr[i].button + "</button>" + "</div>";
+	productElements += "<button type='button'>" + productArr[i].button + "</button> </div>";
 }
 
-document.getElementById("content").innerHTML = productElements
-
-
+var footer = "<br/><br/><footer>&copy; 2016 Fashion Police. Keep your swag goin'!</footer>";
+document.getElementById("content").innerHTML = productElements + footer;
 console.log(productElements);
 
 
