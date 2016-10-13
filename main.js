@@ -22,7 +22,7 @@ productArr.push(swagAccordion);
 
 var swagBShoes = {
  name: "Ball Shoes",
- description: "For when you want to feeling like you're rolling in style.",
+ description: "For when you want to feel like you're rolling in style.",
  price: "$129", 
  image: "images/ballshoes.jpg",
  button: "Add to Cart"
@@ -52,7 +52,7 @@ productArr.push(swagLamp);
 
 var swagLog = {
  name: "Swag Log",
- description: "For when you need to use a little help reminding people how awesome you are.",
+ description: "For when you need a little help reminding people how awesome you are.",
  price: "$1000", 
  image: "images/log.jpg",
  button: "Add to Cart"
