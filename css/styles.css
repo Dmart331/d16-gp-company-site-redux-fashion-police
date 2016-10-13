@@ -18,7 +18,7 @@ header {
 }
 
 #header-index {
-  background: url(../images/tiger.gif);
+  background: url("../images/tiger.gif");
 }
 
 p {
@@ -26,15 +26,15 @@ p {
 }
 
 #header-about {
- background: url(../images/cat.gif);
+ background: url("../images/cat.gif");
 }
 
 #header-mission {
-  background: url(../images/eyes.gif);
+  background: url("../images/eyes.gif");
 }
 
 #header-products {
-  background: url(../images/falling.gif);
+  background: url("../images/falling.gif");
 }
 
 #logo {
