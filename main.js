@@ -90,7 +90,6 @@ var swagUnicorn = {
 
 productArr.push(swagUnicorn);
 
-console.log(productArr);
 
 
 var productElements = "";
@@ -106,24 +105,6 @@ for (var i = 0; i < productArr.length; i++) {
 
 var footer = "<br/><br/><footer>&copy; 2016 Fashion Police. Keep your swag goin'!</footer>";
 document.getElementById("content").innerHTML = productElements + footer;
-console.log(productElements);
-
-
-
-
-
-
-
-
-
-
-// document.getElementById("content").innerHTML = "<img class='card' src='" + productArr[0].image + "'>";
- // = document.getElementById("content").innerHTML;
-
-// document.getElementById("content").innerHTML = "<img class='card' src='" + productArr[i].image + "'>";
-
-
-
 
 
 
